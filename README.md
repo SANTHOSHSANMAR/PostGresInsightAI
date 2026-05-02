@@ -36,3 +36,29 @@ PostgresInsight AI bridges the gap between users and database internals by:
 ---
 
 ## ⚙️ How It Works  
+
+### Core Modules:
+
+- **Query Analyzer** → Detects inefficient SQL patterns  
+- **Optimization Engine** → Suggests improvements (indexing, query refinement)  
+- **Explain Plan Simplifier** → Converts technical plans into readable insights  
+- **TimescaleDB Mode** → Simulates time-series optimizations  
+
+---
+
+## 🔍 Features  
+
+- SQL Query Performance Analysis  
+- Indexing Recommendations  
+- JOIN & ORDER BY Optimization  
+- Explain Plan Interpretation  
+- Time-Series Optimization (Hypertables, Compression)  
+- Interactive Dashboard  
+
+---
+
+## 🧪 Example Use Case  
+
+### Input Query:
+```sql
+SELECT * FROM orders WHERE created_at > NOW() - INTERVAL '30 days';
